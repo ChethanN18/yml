@@ -13,7 +13,7 @@ spec:
       volumeMounts:
         - name: myebs
           mountPath: /data
-volumes:
+  volumes:
     - name: myebs
       persistentVolumeClaim:
         ClaimName: ebs-gp2-claim
